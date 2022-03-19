@@ -1,8 +1,8 @@
-# telegram_link_checker
+# TelegramLinkChecker
 
 How to run
 
-- Install dependencies with pipenv
-- Add VirusTotal api key and Telegram bot token to a .env file using the dev.env format
+- Install dependencies with Pipenv
+- Add VirusTotal api key and Telegram bot token to a `.env` file using the dev.env format
 - Add the bot to a group and give it message deletion and member kicking permissions
-- Run the script
+- Run the script using `pipenv run python3 async_telegram_bot.py`
