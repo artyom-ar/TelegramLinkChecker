@@ -31,8 +31,6 @@ async def process_msg(result, url, message: types.Message):
     user = message.from_user.full_name
     cur_time = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     if result == "clean":
-        print("a")
-        print(TOKEN)
         return
     if result == "suspicious":
         await message.answer(text=f"URL sent {user} is {result}, don't enter the link!")
